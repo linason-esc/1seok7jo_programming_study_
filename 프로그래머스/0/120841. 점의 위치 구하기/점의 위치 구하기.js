@@ -1,3 +1,4 @@
+//using if
 function solution(dot) {
     const x = dot[0];
     const y = dot[1];
@@ -11,4 +12,9 @@ function solution(dot) {
     } else if (x>0 && y<0) {
         return 4;
     }
+}
+
+//using ternary operator
+function solution(dot) {
+    return dot[0] > 0 ? dot[1] > 0 ? 1 : 4 : dot[1] > 0 ? 2 : 3;
 }
