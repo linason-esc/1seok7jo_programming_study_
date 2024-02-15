@@ -1,4 +1,4 @@
-/*function solution(s) {
+function solution(s) {
     
     let changeToNumber = Number(s);
     //console.log(s.split(""));
@@ -9,14 +9,16 @@
     
     if(!(s.includes('e') || s.includes('x')) 
        && (s.length === 4 || s.length === 6)) {
-        /*if(Number.isInteger(changeToNumber) === true) return true;
+        
+        if(Number.isInteger(changeToNumber) === true) return true;
         else if(Number.isInteger(changeToNumber) === false) return false;
+        
     } else return false;
     
-    if(isNaN(changeToNumber) === true) return false;
+    /*if(isNaN(changeToNumber) === true) return false;
         else if(isNaN(changeToNumber) === false) return true;
-    } else return false;
-}*/
+    } else return false;*/
+}
 
 
 function solution(s) {
